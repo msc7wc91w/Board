@@ -11,7 +11,6 @@
             $description = $row['description'];
         }
     }
-    
 
     if(isset($_POST['update'])){
         $id = $_GET['id'];
